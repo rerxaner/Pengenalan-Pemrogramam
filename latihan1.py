@@ -2,10 +2,10 @@
 """ ini komentar """
 ''' ini komentar '''
 
-nama = "Rahman Badio"
-npm = 2355201085
-tempat_tanggal_lahir =  "Bengkulu 17 Januari 2005"
-asal_sma = "SMKN 3 Kota Bengkulu"
+nama = "Rahman"
+npm = 235520
+tempat_tanggal_lahir =  "Bengkulu 1x Januari 200x"
+asal_sma = "SMK"
 program_studi = "Teknik Informatika"
 semester = 1
 
