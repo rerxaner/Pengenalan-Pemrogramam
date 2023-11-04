@@ -13,7 +13,7 @@
 # (Tamabh karakter new line)
 # TERIMA KASIH SUDAH BERBELANJA DI TOKO KAMI
 
-# npm : 2355201xxx
+# npm : 2355201085
 no_struk = int(input("No Struk : "))
 nama_kasir = input("Nama Kasir : ")
 barang1 = input("Barang 1 : ")

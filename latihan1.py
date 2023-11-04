@@ -3,7 +3,7 @@
 ''' ini komentar '''
 
 nama = "Rahman"
-npm = 235520
+npm = 2355201085
 tempat_tanggal_lahir =  "Bengkulu 1x Januari 200x"
 asal_sma = "SMK"
 program_studi = "Teknik Informatika"
