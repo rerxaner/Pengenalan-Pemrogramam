@@ -13,6 +13,10 @@
 # (Tamabh karakter new line)
 # TERIMA KASIH SUDAH BERBELANJA DI TOKO KAMI
 
+import datetime
+
+x = datetime.datetime.now()
+
 # npm : 2355201085
 no_struk = int(input("No Struk : "))
 nama_kasir = input("Nama Kasir : ")
@@ -23,8 +27,16 @@ harag_barang_2 = int(input("Harga Barang 2 Rp : "))
 barang3 = input("Barang 3 : ")
 harag_barang_3 = int(input("Harga Barang 3 Rp : "))
 
-print("----------------------------------------------")
-print("Total Bayar Rp :", harag_barang_1 + harag_barang_2 + harag_barang_3, "\n")
-print("TERIMA KASIH SUDAH BERBELANJA DI TOKO KAMI")
+total_barang = (barang1, barang2, barang3)
 
+print("----------------------------------------------")
+print("Total Barang : ", len(total_barang))
+print("Total Bayar Rp : ", harag_barang_1 + harag_barang_2 + harag_barang_3, "\n")
+
+print("Kasir,")
+print(nama_kasir)
+
+print("Bengkulu, %a/%a/%a"% (x.day, x.month, x.year))
+
+print("TERIMA KASIH SUDAH BERBELANJA DI TOKO KAMI")
 
