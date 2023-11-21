@@ -3,8 +3,7 @@ import datetime
 print("LEMBAR HASIL STUDI")
 print("Nama : Rahman Badio")
 print("NPM : 2355201085")
-
-print("-----------------------------------------------------")
+print("------------------------")
 
 A = 4
 print("A :", A)
@@ -15,21 +14,15 @@ print("C :", C)
 SKS = 3
 print("SKS : ", SKS)
 
-sks_1 = 3
-sks_2 = 3
-
-print("1. Logika Matematika : ", sks_1, "sks")
+print("1. Logika Matematika : ", SKS, "sks")
 nilai_a = int(input("Nilai Logika Matematika : "))
-print("2. Pemrograman : ", sks_2, "sks")
+print("2. Pemrograman : ", SKS, "sks")
 nilai_b = int(input("Nilai Pemrograman : "))
 
-nilai_1 = nilai_a * sks_1
-nilai_2 = nilai_b * sks_2
-total_nilai = nilai_1 + nilai_2
+total_nilai = (nilai_a * SKS) + (nilai_b * SKS)
 print("Total Nilai = ", total_nilai)
 
-sks = sks_1 + sks_2
-index_prestasi = total_nilai / sks
+index_prestasi = total_nilai / (SKS * 2)
 print("Index Prestasi = ", index_prestasi)
 
 print("\n")

@@ -1,10 +1,10 @@
 # Tipe Data
 
 angka = 3.5
-print(type(angka));
+print(type(angka))
 
-data = False;
-print(type(data));
+data = False
+print(type(data))
 
-data = 'True';
-print(type(data));
+data = 'True'
+print(type(data))
