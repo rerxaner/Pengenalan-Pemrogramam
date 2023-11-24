@@ -7,5 +7,7 @@ elif ttl >= 1965 and ttl <= 1979:
     print(f"{nama}, berdasarkan tahun kelahiran anda termasuk Generasi X")
 elif ttl >= 1980 and ttl <= 1994:
     print(f"{nama}, berdasarkan tahun kelahiran anda termasuk Generasi Y")
-else:
+elif ttl >= 1995 and ttl <= 2015:
     print(f"{nama}, berdasarkan tahun kelahiran anda termasuk Generasi Z")
+else:
+    print(f"{nama}, berdasarkan tahun kelahiran anda termasuk Generasi Tidak Diketahui")
