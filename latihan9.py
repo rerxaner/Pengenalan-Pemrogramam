@@ -1,10 +1,19 @@
-x = input("Masukkan nilai pertama : ")
-y = input("Masukkan nilai kedua : ")
+# LATIHAN INPUT DAN OUTPUT
+# Buatlah codingan dengan tampilan sebagai berikut:
+# IDENTITAS DIRI
+# **************
+# Nama:
+# NPM:
+# Prodi:
+# Fakultas:
+# Halo, perkenalkan nama saya ... Saya adalah mahasiswa baru di prodi ... Fakultas ...
 
-print('hasil penjumlahan = ', int(x) + int(y)) # Penjumlahan
-print('hasil penguran = ', int(x) - int(y)) # Pengurangan
-print('hasil perkalian = ', int(x) * int(y)) # Perkalian
-print('hasil pembagian = ', int(x) / int(y)) # Pembagian
-print('hasil pembagian dibulatkan = ', int(x) // int(y)) # Pembagian dibulatkan
-print('hasil sisabagi = ', int(x) % int(y)) # Modulus (sisa hasil bagi)
-print('hasil Pemangkatan = ', int(x) ** int(y)) # Pemangkatan
+print("IDENTITAS DIRI")
+print("**************")
+
+nama = input("Nama: ")
+npm = input("NPM: ")
+prodi = input("Prodi: ")
+fakultas = input("Fakultas: ")
+
+print("Halo, perkenalkan nama saya {} Saya adalah mahasiswa baru di prodi {} Fakultas {}".format(nama, prodi, fakultas))

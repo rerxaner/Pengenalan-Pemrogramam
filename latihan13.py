@@ -1,28 +1,16 @@
-import datetime
+hargaSabun = int(input("Masukan Harga Sabun: Rp "))
+hargaSampo = int(input("Masukan Harga Sampo: Rp "))
+hargaMinyak = int(input("Masukan Harga Minyak: Rp "))
 
-tanggal = datetime.datetime.now()
+totalBelanja = hargaSampo + hargaSabun + hargaMinyak
 
-print("KARTU RENCANA STUDI")
-print("*******************")
+if totalBelanja >= 150000:
+    print("Kamu Mendapat Diskon 10%")
+    diskon = totalBelanja * (10/100)
+    print("Total diskon 10% :", diskon)
+    bayar = totalBelanja - diskon
+    print("Total yang harus dibayar Rp %s" %bayar)
 
-nama = input("Nama: ")
-npm = int(input("NPM: "))
-
-print("Prodi: Teknik Informatika")
-print("semester: 1")
-
-print("Mata Kuliah:")
-mata_kuliah_1 = input("1: ")
-mata_kuliah_2 = input("2: ")
-mata_kuliah_3 = input("3: ")
-mata_kuliah_4 = input("4: ")
-
-total_mata_kuliah = [mata_kuliah_1, mata_kuliah_2, mata_kuliah_3, mata_kuliah_4]
-print("Total Mata Kuliah yang diambil: ", len(total_mata_kuliah), "\n")
-
-print("Bengkulu, %a/%a/%a"% (tanggal.day, tanggal.month, tanggal.year))
-
-print("Mahasiswa", "\n")
-print(nama)
-print(npm)
-
+if totalBelanja < 150000:
+    print("Kamu Mendapatkan permen")
+    print("Total yang harus dibayar Rp %s" %totalBelanja)

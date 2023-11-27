@@ -1,7 +1,8 @@
-nama = input("Masukan nama anda: ")
-jenisKelamin = input("Jenis kelamin: ")
+tinggi_badan = int(input("Masukan tinggi badan Anda: "))
 
-if jenisKelamin == 'laki-laki':
-    print("Halo bro ", nama)
+berat_badan = tinggi_badan-100
+
+if berat_badan >= 60:
+    print("Anda Gemuk")
 else:
-    print("Halo sis ", nama)
+    print("Anda Kurus")

@@ -1,15 +1,15 @@
-# # 1. Buatlah codingan yang menampilkan ilangan dengan dua buah penjumlahan, pembagian dam hasil bagi dua
-# #    buah variabel dengan nilai 10 dan 7. Dengan ketentuan variabel tersebut ditampilkan pada layar monitor.
+# # 2. Diketahui variabel dengan nilai 15, 4, 4, buatlah codingan degan ketentuan sebagai berikut:
+# #		a. Tampilkan ketiga variabel tersebut
+# #		b. Bandingakan antara variabel satu dan ketiga apakah variabel tersebut memiliki nilai yang sama?
+# #		c. Bandingakan antara variabel kedua dan ketiga, apakah variabel memiliki nilai yang sama?
+# # 	Bandingkan antara variabel kedua dan ketiga, apakah variabel tersebut memiliki nilai yang tidak sama?
 
-x = 10
-y = 7
+i = 15
+j = 4
+x = 4
 
-print(f'Nilai x = {x}, Nilai y = {y}\n')
+print(f'Nilai i = {i}, Nilai j = {j}, Nilai x = {x}\n')
 
-print('Penjumlahan 10 + 7 = ',x + y)
-print('Penjumlahan 10 + 7 = ',x - y)
-print('Pembagian 10 / 7 =', x * y)
-print('Pembagian 10 / 7 =', x / y)
-print('Pembagian 10 / 7 =', x // y)
-print('Hasil Bagi 10 % 7 = ', x % y)
-print('Hasil Bagi 10 % 7 = ', x ** y)
+print(f'apakah i : {i} dan x : {x} memiliki nilai yang sama', i == x)
+print(f'apakah j : {j} dan x : {x} memiliki nilai yang sama', j == x)
+print(f'apakah j : {j} dan x : {x} memiliki nilai yang tidak sama',j != x)

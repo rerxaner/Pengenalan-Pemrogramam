@@ -1,19 +1,15 @@
-# LATIHAN INPUT DAN OUTPUT
-# Buatlah codingan dengan tampilan sebagai berikut:
-# IDENTITAS DIRI
-# **************
-# Nama:
-# NPM:
-# Prodi:
-# Fakultas:
-# Halo, perkenalkan nama saya ... Saya adalah mahasiswa baru di prodi ... Fakultas ...
+# Soal
+# Buatlah coding untuk menghitung luas lingkaran dan bujur sangkar, dimana jari jari dan sisi diinputkan oleh user
 
-print("IDENTITAS DIRI")
-print("**************")
+print("Menghitung Luas Lingkaran dan Bujur Sangkar")
 
-nama = input("Nama: ")
-npm = input("NPM: ")
-prodi = input("Prodi: ")
-fakultas = input("Fakultas: ")
+r = float(input("Masukkan Jari Jari: "))
+s = float(input("Masukkan Sisi: "))
 
-print("Halo, perkenalkan nama saya {} Saya adalah mahasiswa baru di prodi {} Fakultas {}".format(nama, prodi, fakultas))
+phi = 3.14
+
+luas_lingkaran = phi * r * r
+luas_bujur_sangkar = s * s
+
+print("Luas Lingkaran = ", luas_lingkaran)
+print("Luas Bujur Sangkar = ", luas_bujur_sangkar)
