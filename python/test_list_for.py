@@ -1,4 +1,4 @@
-nama = ['Rahman', 'Dion', 'Adam', 'Genathan', 'Yulis', 'Andreza', 'Ahmad', 'Bryan', 'Dean', 'Ferdi', 'Egi', 'Afrizal', 'Kevin']
+nama = ['Rahman', 'Dion', 'Adam', 'Genathan', 'Yulius', 'Andreza', 'Ahmad', 'Bryan', 'Dean', 'Ferdi', 'Egi', 'Afrizal', 'Kevin']
 
 print(type(nama))
 
