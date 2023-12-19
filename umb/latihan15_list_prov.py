@@ -3,7 +3,7 @@ list_provinsi = [
     'bengkulu',
     'jambi',
     'lampung',
-    'riau'
+    'riau',
     'padang',
     'palembang',
     'medan'
@@ -17,3 +17,13 @@ for i, provinsi in enumerate(list_provinsi):
         break
 else:
    print('Provinsi yang dicari tidak ditemukan')
+   
+# i = 0
+# while i < len(list_provinsi):
+#     provinsi = list_provinsi[i]
+#     if provinsi.lower() == nama_provinsi.lower():
+#         print('Provinsi yang di cari berada di index ke', i)
+#         break
+#     i += 1
+# else:
+#     print('Provinsi yang dicari tidak ditemukan')
