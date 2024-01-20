@@ -1,3 +1,7 @@
+#!/usr/local/bin/pyhon
+
+# chmod +x main.py
+
 # ini komentar
 """ ini komentar """
 ''' ini komentar '''
